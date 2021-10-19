@@ -35,9 +35,7 @@ namespace ClassPractice
             car.Type = "sedan";
 
             Console.WriteLine($"This {car.Type} has {car.WheelCount} wheels and it is {car.HasIgnition} that this car has an ignition.");
-            car.Honk();
-
-            
+            car.Honk();            
 
         }
     }
